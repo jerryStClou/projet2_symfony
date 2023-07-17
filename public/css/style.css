@@ -1,0 +1,31 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+nav
+{
+    background: rgb(217, 216, 216);
+    height: 5vh;
+}
+nav ul
+{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul a
+{
+    text-decoration: none;
+    font-size:25px;
+    color:black;
+}
+
+nav ul a:hover
+{
+    text-decoration: underline;
+    color:white;
+}
